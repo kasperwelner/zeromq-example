@@ -7,23 +7,23 @@ provides-member:
 - ["C2C75Drain", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "+="
-- "Stream"
-- !private "!"
-- "AssignmentPrecedence"
-- !private "IntegerLiteralType"
 - "Double"
-- "DataRepresentable"
-- !private ">="
-- !private "FloatLiteralType"
-- "Data"
-- "BooleanLiteralType"
-- "ReceivingStream"
 - "Drain"
-- !private "..<"
-- !private "Array"
-- !private "ClosableError"
+- "DataRepresentable"
+- "AssignmentPrecedence"
+- !private ">="
+- !private "IntegerLiteralType"
+- !private "FloatLiteralType"
+- "BooleanLiteralType"
+- !private "!"
 - "Int"
+- !private "Array"
+- "Data"
+- !private "+="
+- !private "..<"
+- "ReceivingStream"
+- "Stream"
+- !private "ClosableError"
 depends-member:
 - !private ["Ps9AnyObject", "ClosableError"]
 - !private ["Ps9AnyObject", "Data"]

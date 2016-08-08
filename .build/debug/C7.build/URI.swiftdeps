@@ -9,8 +9,8 @@ provides-member:
 - ["VV2C73URI8UserInfo", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
 - "AssignmentPrecedence"
+- "String"
 - "URI"
 - "Int"
 depends-member:

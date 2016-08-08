@@ -10,8 +10,8 @@ provides-dynamic-lookup:
 depends-top-level:
 - "Double"
 - "Void"
-- "AsyncStream"
 - "AsyncHost"
+- "AsyncStream"
 depends-member:
 - !private ["Ps10Arithmetic", "never"]
 - ["P2C79AsyncHost", "AsyncStream"]

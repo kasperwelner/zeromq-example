@@ -1,5 +1,5 @@
 version: "Apple Swift version 3.0-dev (LLVM a556865305, Clang 24a293d372, Swift f8f6d61d19)"
-options: "d30ad1c94ab339b485617da3c3b8925e"
-build_time: [523978501, 626320000]
+options: "1e5e264871a522c8a01eee3f3c444682"
+build_time: [523996379, 657175000]
 inputs:
-  "/Volumes/Repositories/Nodes/zeromq-example/Sources/zeromqcli/main.swift": !dirty [523975641, 0]
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Sources/zeromqcli/main.swift": [523993242, 0]

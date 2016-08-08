@@ -8,8 +8,8 @@ provides-member:
 - ["P2C710Connection", "open"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Connection"
 - "Stream"
+- "Connection"
 - "Double"
 depends-member:
 - !private ["Ps10Arithmetic", "never"]

@@ -8,8 +8,8 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "URIConnection"
-- "URI"
 - "Connection"
+- "URI"
 depends-member:
 - ["P2C714AsyncReceiving", "URI"]
 - ["P2C714AsyncReceiving", "init"]

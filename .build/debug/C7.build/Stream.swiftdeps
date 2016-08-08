@@ -25,18 +25,18 @@ provides-member:
 - ["P2C79Receiving", "receive"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Closable"
-- "Void"
-- "Double"
+- "Data"
+- "Stream"
+- "AsyncSending"
+- "ReceivingStream"
+- "Int"
 - "Sending"
 - "Receiving"
 - "AsyncReceiving"
 - "SendingStream"
-- "AsyncSending"
-- "Int"
-- "Data"
-- "Stream"
-- "ReceivingStream"
+- "Double"
+- "Void"
+- "Closable"
 depends-member:
 - !private ["Ps10Arithmetic", "never"]
 - ["P2C714AsyncReceiving", "Data"]

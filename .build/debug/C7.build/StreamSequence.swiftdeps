@@ -7,15 +7,15 @@ provides-member:
 - ["C2C714StreamSequence", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "AnyIterator"
 - "StreamSequence"
 - "AssignmentPrecedence"
-- "Data"
-- "FloatLiteralType"
-- "AnyIterator"
-- "Stream"
-- "Sequence"
 - "IntegerLiteralType"
+- "Sequence"
+- "FloatLiteralType"
+- "Stream"
 - "Double"
+- "Data"
 depends-member:
 - ["Vs11AnyIterator", "Element"]
 - !private ["Vs11AnyIterator", "init"]

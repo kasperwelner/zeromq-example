@@ -1,47 +1,47 @@
 {
   "": {
-    "swift-dependencies": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/master.swiftdeps"
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/master.swiftdeps"
   },
-  "/Volumes/Repositories/Nodes/zeromq-example/Packages/ZeroMQ-1.2.0/Sources/Context.swift": {
-    "dependencies": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Context.d",
-    "object": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Context.swift.o",
-    "swiftmodule": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Context~partial.swiftmodule",
-    "swift-dependencies": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Context.swiftdeps"
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/ZeroMQ-1.2.0/Sources/Context.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Context.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Context.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Context~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Context.swiftdeps"
   },
-  "/Volumes/Repositories/Nodes/zeromq-example/Packages/ZeroMQ-1.2.0/Sources/CURVE.swift": {
-    "dependencies": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/CURVE.d",
-    "object": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/CURVE.swift.o",
-    "swiftmodule": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/CURVE~partial.swiftmodule",
-    "swift-dependencies": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/CURVE.swiftdeps"
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/ZeroMQ-1.2.0/Sources/CURVE.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/CURVE.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/CURVE.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/CURVE~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/CURVE.swiftdeps"
   },
-  "/Volumes/Repositories/Nodes/zeromq-example/Packages/ZeroMQ-1.2.0/Sources/Error.swift": {
-    "dependencies": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Error.d",
-    "object": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Error.swift.o",
-    "swiftmodule": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Error~partial.swiftmodule",
-    "swift-dependencies": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Error.swiftdeps"
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/ZeroMQ-1.2.0/Sources/Error.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Error.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Error.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Error.swiftdeps"
   },
-  "/Volumes/Repositories/Nodes/zeromq-example/Packages/ZeroMQ-1.2.0/Sources/Message.swift": {
-    "dependencies": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Message.d",
-    "object": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Message.swift.o",
-    "swiftmodule": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Message~partial.swiftmodule",
-    "swift-dependencies": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Message.swiftdeps"
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/ZeroMQ-1.2.0/Sources/Message.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Message.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Message.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Message~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Message.swiftdeps"
   },
-  "/Volumes/Repositories/Nodes/zeromq-example/Packages/ZeroMQ-1.2.0/Sources/Poller.swift": {
-    "dependencies": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Poller.d",
-    "object": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Poller.swift.o",
-    "swiftmodule": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Poller~partial.swiftmodule",
-    "swift-dependencies": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Poller.swiftdeps"
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/ZeroMQ-1.2.0/Sources/Poller.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Poller.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Poller.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Poller~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Poller.swiftdeps"
   },
-  "/Volumes/Repositories/Nodes/zeromq-example/Packages/ZeroMQ-1.2.0/Sources/Proxy.swift": {
-    "dependencies": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Proxy.d",
-    "object": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Proxy.swift.o",
-    "swiftmodule": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Proxy~partial.swiftmodule",
-    "swift-dependencies": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Proxy.swiftdeps"
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/ZeroMQ-1.2.0/Sources/Proxy.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Proxy.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Proxy.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Proxy~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Proxy.swiftdeps"
   },
-  "/Volumes/Repositories/Nodes/zeromq-example/Packages/ZeroMQ-1.2.0/Sources/Socket.swift": {
-    "dependencies": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Socket.d",
-    "object": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Socket.swift.o",
-    "swiftmodule": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Socket~partial.swiftmodule",
-    "swift-dependencies": "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/ZeroMQ.build/Socket.swiftdeps"
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/ZeroMQ-1.2.0/Sources/Socket.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Socket.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Socket.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Socket~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/ZeroMQ.build/Socket.swiftdeps"
   }
 }

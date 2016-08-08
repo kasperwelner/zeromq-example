@@ -22,20 +22,20 @@ provides-member:
 - ["Sd", "never"]
 provides-dynamic-lookup:
 depends-top-level:
-- "mach_timebase_info_data_t"
 - "Int"
-- !private "*"
-- "/"
-- "Double"
+- "mach_timebase_info"
 - !private "=="
 - !private "IntegerLiteralType"
 - "FloatLiteralType"
-- "factor"
-- "TimeUnitRepresentable"
+- !private "*"
 - !private "+"
-- "mach_timebase_info"
+- "/"
+- "Double"
 - !private "mach_absolute_time"
 - "now"
+- "mach_timebase_info_data_t"
+- "factor"
+- "TimeUnitRepresentable"
 depends-member:
 - ["Ps10Arithmetic", "init"]
 - !private ["Ps10Arithmetic", "never"]

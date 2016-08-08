@@ -7,11 +7,11 @@ provides-member:
 - ["O2C711StreamError", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Data"
-- "StreamError"
 - "Error"
 - !private "IntegerLiteralType"
 - !private "FloatLiteralType"
+- "Data"
+- "StreamError"
 depends-member:
 - ["Ps5Error", "_code"]
 - ["Ps5Error", "_domain"]

@@ -8,10 +8,10 @@ provides-member:
 - ["P2C715AsyncConnection", "open"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Double"
 - "Void"
-- "AsyncConnection"
+- "Double"
 - "AsyncStream"
+- "AsyncConnection"
 depends-member:
 - !private ["Ps10Arithmetic", "never"]
 - ["P2C715AsyncConnection", "AsyncConnection"]

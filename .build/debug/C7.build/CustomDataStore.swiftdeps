@@ -7,8 +7,8 @@ provides-member:
 - ["P2C715CustomDataStore", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "String"
 - "CustomDataStore"
+- "String"
 depends-member:
 - ["P2C715CustomDataStore", "String"]
 - ["P2C715CustomDataStore", "storage"]

@@ -7,50 +7,69 @@
 //
 
 import Foundation
-
-import Foundation
 import CZeroMQ
-import Darwin.C
+import ZeroMQ
 
-let context = zmq_ctx_new()
-guard let requester = zmq_socket (context, ZMQ_REQ) else { perror("zmq_socket"); exit(1) }
-/*
-var optval = Int32(0)
-var optsize = sizeofValue(optval)
-if (zmq_setsockopt(requester, ZMQ_LINGER, &optval, optsize) == -1) {
-    perror("setsockopt");
-    exit(1);
+/* --- CLIENT --- */
+
+func useSwiftAPI(portString:String) {
+    do {
+        let context = try Context()
+        
+        let outbound = try context.socket(.Req)
+        try outbound.connect(portString)
+        
+        _ = try outbound.sendString("Hello")
+        if let response = try outbound.receiveString() {
+            print(response)
+        }
+    } catch {
+        print(error)
+    }
 }
- */
-guard Process.arguments.count > 1, let port = Process.arguments.last else { print("Please specify port");exit(1) }
-let portString = "tcp://127.0.0.1:\(port)"
-print ("Connecting to hello world server on \(portString)\n")
-portString.withCString { pointer in
+
+func useCAPI(portString:String) {
+    let context = zmq_ctx_new()
+    guard let requester = zmq_socket (context, ZMQ_REQ) else { perror("zmq_socket"); exit(1) }
+    
+    var optval = Int32(0)
+    let optsize = sizeofValue(optval)
+    if (zmq_setsockopt(requester, ZMQ_LINGER, &optval, optsize) == -1) {
+        perror("setsockopt");
+        exit(1);
+    }
     
     let result = zmq_connect (requester, portString)
     if result != 0 {
         perror("zmq_connect")
         exit(1)
     }
-}
-
-for i in 0..<10 {
-    print("Sending Hello \(i)…\n")
+    
     let res = zmq_send (requester, "Hello", 5, 0);
-    if res != 0 {
+    if res == -1 {
         perror("zmq_send");
         sleep(1)
-        break
+        exit(1)
     }
-    print("Waiting for response...")
-    var inString = Array(repeating: CChar(), count: 256)
+    let inString = Array(repeating: CChar(), count: 256)
     zmq_recv (requester, UnsafeMutablePointer<CChar>(inString), 256, 0);
-    print("Received World \(i): \(String(inString))\n", i);
+    print("World");
+    
+    zmq_close (requester);
+    zmq_ctx_destroy (context);
 }
 
-zmq_close (requester);
-zmq_ctx_destroy (context);
-
+guard ProcessInfo.processInfo.arguments.count > 1 else { print("Please specify port");exit(1) }
+let port = ProcessInfo.processInfo.arguments[1]
+let portString = "tcp://127.0.0.1:\(port)"
+print ("Connecting to server on \(portString)\n")
+if ProcessInfo.processInfo.arguments.count > 2, let useC:String = ProcessInfo.processInfo.arguments.last, useC == "c" {
+    print("Using legacy API")
+    useCAPI(portString: portString)
+} else {
+    print("Using Swift API")
+    useSwiftAPI(portString: portString)
+}
 
 
 

@@ -14,16 +14,16 @@ provides-member:
 - ["SS", "caseInsensitive"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Int"
-- "CaseInsensitiveString"
-- "AssignmentPrecedence"
-- "=="
-- "CustomStringConvertible"
 - "ExpressibleByStringLiteral"
+- "CustomStringConvertible"
 - "String"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CaseInsensitiveString"
 - "CaseInsensitiveStringRepresentable"
 - "Hashable"
-- "Bool"
+- "Int"
 depends-member:
 - ["V2C721CaseInsensitiveString", "ExtendedGraphemeClusterLiteralType"]
 - ["V2C721CaseInsensitiveString", "Int"]

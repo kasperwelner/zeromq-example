@@ -7,24 +7,24 @@ provides-member:
 - ["C2C710AsyncDrain", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "!"
 - !private "+="
 - "AsyncDrain"
-- "AssignmentPrecedence"
+- !private "!"
 - !private ">="
-- !private "IntegerLiteralType"
-- !private "FloatLiteralType"
-- "AsyncStream"
+- "Double"
 - "DataRepresentable"
 - "Void"
 - "BooleanLiteralType"
-- "Double"
-- "AsyncReceivingStream"
-- "Array"
-- "Int"
 - "Data"
+- !private "FloatLiteralType"
+- "Array"
 - !private "..<"
+- !private "IntegerLiteralType"
+- "AsyncStream"
+- "AssignmentPrecedence"
 - !private "ClosableError"
+- "AsyncReceivingStream"
+- "Int"
 depends-member:
 - !private ["Ps9AnyObject", "ClosableError"]
 - !private ["Ps9AnyObject", "Data"]

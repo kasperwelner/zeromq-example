@@ -13,10 +13,10 @@ depends-top-level:
 - "Error"
 - "=="
 - !private "IntegerLiteralType"
-- "Bool"
+- "ClosableError"
 - !private "FloatLiteralType"
 - "Closable"
-- "ClosableError"
+- "Bool"
 depends-member:
 - !private ["Ps17BitwiseOperations", "hashValue"]
 - !private ["Ps7CVarArg", "hashValue"]

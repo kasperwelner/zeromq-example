@@ -8,9 +8,9 @@ provides-member:
 - ["P2C74Host", "accept"]
 provides-dynamic-lookup:
 depends-top-level:
-- "Host"
 - "Stream"
 - "Double"
+- "Host"
 depends-member:
 - !private ["Ps10Arithmetic", "never"]
 - !private ["Ps19BinaryFloatingPoint", "never"]

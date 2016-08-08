@@ -1,11 +1,11 @@
 version: "Apple Swift version 3.0-dev (LLVM a556865305, Clang 24a293d372, Swift f8f6d61d19)"
-options: "eb671ba02cec0f98bfab9945ba7e50c4"
-build_time: [523978501, 84184000]
+options: "4c1cb7dcf374253f82f6646144e9ddd2"
+build_time: [523996379, 144858000]
 inputs:
-  "/Volumes/Repositories/Nodes/zeromq-example/Packages/ZeroMQ-1.2.0/Sources/Context.swift": [523978492, 0]
-  "/Volumes/Repositories/Nodes/zeromq-example/Packages/ZeroMQ-1.2.0/Sources/CURVE.swift": [523978492, 0]
-  "/Volumes/Repositories/Nodes/zeromq-example/Packages/ZeroMQ-1.2.0/Sources/Error.swift": [523978492, 0]
-  "/Volumes/Repositories/Nodes/zeromq-example/Packages/ZeroMQ-1.2.0/Sources/Message.swift": [523978492, 0]
-  "/Volumes/Repositories/Nodes/zeromq-example/Packages/ZeroMQ-1.2.0/Sources/Poller.swift": [523978492, 0]
-  "/Volumes/Repositories/Nodes/zeromq-example/Packages/ZeroMQ-1.2.0/Sources/Proxy.swift": [523978492, 0]
-  "/Volumes/Repositories/Nodes/zeromq-example/Packages/ZeroMQ-1.2.0/Sources/Socket.swift": [523978492, 0]
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/ZeroMQ-1.2.0/Sources/Context.swift": [523996250, 0]
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/ZeroMQ-1.2.0/Sources/CURVE.swift": [523996250, 0]
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/ZeroMQ-1.2.0/Sources/Error.swift": [523996250, 0]
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/ZeroMQ-1.2.0/Sources/Message.swift": [523996250, 0]
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/ZeroMQ-1.2.0/Sources/Poller.swift": [523996250, 0]
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/ZeroMQ-1.2.0/Sources/Proxy.swift": [523996250, 0]
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/ZeroMQ-1.2.0/Sources/Socket.swift": [523996250, 0]
