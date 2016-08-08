@@ -322,8 +322,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks $(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = (
+					"-lzmq",
+					"-L/usr/local/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REEXPORTED_LIBRARY_PATHS = "";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Packages/CZeroMQ-0.5.1/ $(SRCROOT)/.build/debug/";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -332,8 +338,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks $(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = (
+					"-lzmq",
+					"-L/usr/local/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REEXPORTED_LIBRARY_PATHS = "";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Packages/CZeroMQ-0.5.1/ $(SRCROOT)/.build/debug/";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -348,6 +360,7 @@
 				300796F31D57D28F007CAF2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3038FEF11D57912800A25624 /* Build configuration list for PBXProject "zeromqcli" */ = {
 			isa = XCConfigurationList;

@@ -11,25 +11,25 @@ provides-member:
 - ["O6ZeroMQ13PollItemEvent", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "Int16"
-- "Int32"
 - "PollItemEvent"
-- "Int"
 - "ZMQ_POLLOUT"
-- "UnsafeMutablePointer"
-- "Void"
-- "OptionSet"
-- "ZMQ_POLLERR"
-- !private "zmq_poll"
-- "poll"
-- "PollEvent"
-- "ZMQ_POLLIN"
-- !private "FloatLiteralType"
-- !private "Error"
 - "zmq_pollitem_t"
-- !private "IntegerLiteralType"
-- !private "!="
+- "ZMQ_POLLIN"
+- "PollEvent"
+- "poll"
+- "ZMQ_POLLERR"
+- "UnsafeMutableRawPointer"
+- "AssignmentPrecedence"
 - "=="
+- !private "zmq_poll"
+- !private "!="
+- !private "Error"
+- !private "IntegerLiteralType"
+- "OptionSet"
+- "Int16"
+- "Int"
+- "Int32"
+- !private "FloatLiteralType"
 depends-member:
 - !private ["Sa", "IndexDistance"]
 - !private ["Sa", "Iterator"]
@@ -37,37 +37,6 @@ depends-member:
 - !private ["Sa", "count"]
 - !private ["Sa", "deinit"]
 - !private ["Sa", "map"]
-- ["Ps23ArrayLiteralConvertible", "Element"]
-- !private ["Ps23ArrayLiteralConvertible", "IndexDistance"]
-- ["Ps23ArrayLiteralConvertible", "Int16"]
-- !private ["Ps23ArrayLiteralConvertible", "Iterator"]
-- ["Ps23ArrayLiteralConvertible", "PollEvent"]
-- ["Ps23ArrayLiteralConvertible", "RawValue"]
-- ["Ps23ArrayLiteralConvertible", "ZMQ_POLLERR"]
-- ["Ps23ArrayLiteralConvertible", "ZMQ_POLLIN"]
-- ["Ps23ArrayLiteralConvertible", "ZMQ_POLLOUT"]
-- !private ["Ps23ArrayLiteralConvertible", "_Element"]
-- ["Ps23ArrayLiteralConvertible", "contains"]
-- !private ["Ps23ArrayLiteralConvertible", "count"]
-- ["Ps23ArrayLiteralConvertible", "formIntersection"]
-- ["Ps23ArrayLiteralConvertible", "formSymmetricDifference"]
-- ["Ps23ArrayLiteralConvertible", "formUnion"]
-- ["Ps23ArrayLiteralConvertible", "init"]
-- ["Ps23ArrayLiteralConvertible", "insert"]
-- ["Ps23ArrayLiteralConvertible", "intersection"]
-- ["Ps23ArrayLiteralConvertible", "isDisjoint"]
-- ["Ps23ArrayLiteralConvertible", "isEmpty"]
-- ["Ps23ArrayLiteralConvertible", "isSubset"]
-- ["Ps23ArrayLiteralConvertible", "isSuperset"]
-- !private ["Ps23ArrayLiteralConvertible", "map"]
-- ["Ps23ArrayLiteralConvertible", "rawValue"]
-- ["Ps23ArrayLiteralConvertible", "remove"]
-- ["Ps23ArrayLiteralConvertible", "subtract"]
-- ["Ps23ArrayLiteralConvertible", "subtracting"]
-- ["Ps23ArrayLiteralConvertible", "symmetricDifference"]
-- ["Ps23ArrayLiteralConvertible", "union"]
-- ["Ps23ArrayLiteralConvertible", "update"]
-- ["Ps23ArrayLiteralConvertible", ""]
 - !private ["Ps23BidirectionalCollection", "IndexDistance"]
 - !private ["Ps23BidirectionalCollection", "Iterator"]
 - !private ["Ps23BidirectionalCollection", "_Element"]
@@ -80,8 +49,6 @@ depends-member:
 - !private ["Ps22BidirectionalIndexable", "map"]
 - ["Ps17BitwiseOperations", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["Ps7Boolean", "_getBuiltinLogicValue"]
-- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - ["Ps7CVarArg", "init"]
 - !private ["Ps10Collection", "IndexDistance"]
 - !private ["Ps10Collection", "Iterator"]
@@ -138,9 +105,42 @@ depends-member:
 - ["Ps9Equatable", "union"]
 - ["Ps9Equatable", "update"]
 - ["Ps9Equatable", ""]
+- !private ["Ps5Error", "lastError"]
 - !private ["V6ZeroMQ5Error", "deinit"]
 - !private ["V6ZeroMQ5Error", "lastError"]
-- !private ["Ps13ErrorProtocol", "lastError"]
+- ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- ["Ps25ExpressibleByArrayLiteral", "Int16"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- ["Ps25ExpressibleByArrayLiteral", "PollEvent"]
+- ["Ps25ExpressibleByArrayLiteral", "RawValue"]
+- ["Ps25ExpressibleByArrayLiteral", "ZMQ_POLLERR"]
+- ["Ps25ExpressibleByArrayLiteral", "ZMQ_POLLIN"]
+- ["Ps25ExpressibleByArrayLiteral", "ZMQ_POLLOUT"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- ["Ps25ExpressibleByArrayLiteral", "contains"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- ["Ps25ExpressibleByArrayLiteral", "formIntersection"]
+- ["Ps25ExpressibleByArrayLiteral", "formSymmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "formUnion"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "insert"]
+- ["Ps25ExpressibleByArrayLiteral", "intersection"]
+- ["Ps25ExpressibleByArrayLiteral", "isDisjoint"]
+- ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- ["Ps25ExpressibleByArrayLiteral", "isSubset"]
+- ["Ps25ExpressibleByArrayLiteral", "isSuperset"]
+- !private ["Ps25ExpressibleByArrayLiteral", "map"]
+- ["Ps25ExpressibleByArrayLiteral", "rawValue"]
+- ["Ps25ExpressibleByArrayLiteral", "remove"]
+- ["Ps25ExpressibleByArrayLiteral", "subtract"]
+- ["Ps25ExpressibleByArrayLiteral", "subtracting"]
+- ["Ps25ExpressibleByArrayLiteral", "symmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "union"]
+- ["Ps25ExpressibleByArrayLiteral", "update"]
+- ["Ps25ExpressibleByArrayLiteral", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
 - ["Ps8Hashable", "init"]
 - !private ["Ps9Indexable", "IndexDistance"]
@@ -158,7 +158,6 @@ depends-member:
 - !private ["Vs5Int32", "init"]
 - ["Ps7Integer", "init"]
 - ["Ps17IntegerArithmetic", "init"]
-- ["Ps25IntegerLiteralConvertible", "init"]
 - ["Ps16IteratorProtocol", "Element"]
 - !private ["Ps17MutableCollection", "IndexDistance"]
 - !private ["Ps17MutableCollection", "Iterator"]
@@ -230,8 +229,7 @@ depends-member:
 - ["O6ZeroMQ13PollItemEvent", "Int32"]
 - ["O6ZeroMQ13PollItemEvent", "PollEvent"]
 - ["O6ZeroMQ13PollItemEvent", "Socket"]
-- ["O6ZeroMQ13PollItemEvent", "UnsafeMutablePointer"]
-- ["O6ZeroMQ13PollItemEvent", "Void"]
+- ["O6ZeroMQ13PollItemEvent", "UnsafeMutableRawPointer"]
 - ["O6ZeroMQ13PollItemEvent", "init"]
 - ["O6ZeroMQ13PollItemEvent", "pollItem"]
 - ["O6ZeroMQ13PollItemEvent", "zmq_pollitem_t"]
@@ -316,19 +314,21 @@ depends-member:
 - ["Ps13SignedInteger", "init"]
 - ["Ps12SignedNumber", "init"]
 - ["Ps10Strideable", "init"]
-- !private ["Sp", "deinit"]
+- !private ["Sv", "deinit"]
 - !private ["Ps14_ArrayProtocol", "IndexDistance"]
 - !private ["Ps14_ArrayProtocol", "Iterator"]
 - !private ["Ps14_ArrayProtocol", "_Element"]
 - !private ["Ps14_ArrayProtocol", "count"]
 - !private ["Ps14_ArrayProtocol", "map"]
-- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
 - !private ["Ps24_DestructorSafeContainer", "IndexDistance"]
 - !private ["Ps24_DestructorSafeContainer", "Iterator"]
 - !private ["Ps24_DestructorSafeContainer", "_Element"]
 - !private ["Ps24_DestructorSafeContainer", "count"]
 - !private ["Ps24_DestructorSafeContainer", "map"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "init"]
 - ["Ps14_Incrementable", "init"]
 - ["Ps8_Integer", "init"]
 - ["Ps18_IntegerArithmetic", "init"]
@@ -341,13 +341,10 @@ depends-member:
 - !private ["VSC14zmq_pollitem_t", "socket"]
 depends-nominal:
 - !private "Sa"
-- "Ps23ArrayLiteralConvertible"
 - !private "Ps23BidirectionalCollection"
 - !private "Ps22BidirectionalIndexable"
 - "Ps17BitwiseOperations"
 - !private "Sb"
-- !private "Ps7Boolean"
-- !private "Ps25BooleanLiteralConvertible"
 - "Ps7CVarArg"
 - !private "Ps10Collection"
 - "Ps10Comparable"
@@ -356,8 +353,11 @@ depends-nominal:
 - "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
+- !private "Ps5Error"
 - !private "V6ZeroMQ5Error"
-- !private "Ps13ErrorProtocol"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
 - "Ps8Hashable"
 - !private "Ps9Indexable"
 - !private "Ps13IndexableBase"
@@ -366,7 +366,6 @@ depends-nominal:
 - !private "Vs5Int32"
 - "Ps7Integer"
 - "Ps17IntegerArithmetic"
-- "Ps25IntegerLiteralConvertible"
 - "Ps16IteratorProtocol"
 - !private "Ps17MutableCollection"
 - !private "Ps16MutableIndexable"
@@ -384,11 +383,12 @@ depends-nominal:
 - "Ps13SignedInteger"
 - "Ps12SignedNumber"
 - "Ps10Strideable"
-- !private "Sp"
+- !private "Sv"
 - !private "Ps14_ArrayProtocol"
-- !private "Ps33_BuiltinBooleanLiteralConvertible"
-- "Ps33_BuiltinIntegerLiteralConvertible"
 - !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
 - "Ps14_Incrementable"
 - "Ps8_Integer"
 - "Ps18_IntegerArithmetic"
@@ -398,21 +398,22 @@ depends-nominal:
 - !private "VSC14zmq_pollitem_t"
 depends-dynamic-lookup:
 depends-external:
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/Visibility.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/module.map"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
-- "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.swiftmodule"
-interface-hash: "800bfd042c1a8d3ba892dbd5a4712a15"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/Visibility.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/DispatchShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/module.modulemap"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/C7.swiftmodule"
+interface-hash: "ae9a24f661c1094dc146901cf1556b1b"

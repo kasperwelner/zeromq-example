@@ -1,8 +1,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "ZeroMQ",
+    name: "zerocli",
     dependencies: [
-        .Package(url: "https://github.com/Zewo/ZeroMQ.git", majorVersion: 0, minor: 5),
+        .Package(url: "https://github.com/KelvinJin/SwiftZMQ.git", majorVersion: 1)
         ]
 )

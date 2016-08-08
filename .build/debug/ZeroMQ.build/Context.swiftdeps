@@ -18,42 +18,43 @@ provides-member:
 - ["C6ZeroMQ7Context", "setThreadPriority"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "ZMQ_PUSH"
+- !private "ZMQ_XSUB"
 - !private "ZMQ_PAIR"
-- !private "zmq_ctx_new"
-- !private "ZMQ_PUB"
-- "Bool"
-- !private "zmq_ctx_get"
-- !private "ZMQ_SOCKET_LIMIT"
-- !private "zmq_socket"
-- !private "ZMQ_REQ"
 - !private "zmq_ctx_set"
-- !private "ZMQ_DEALER"
-- "Context"
-- !private "Error"
-- !private "ZMQ_STREAM"
-- !private "ZMQ_PULL"
-- !private "!="
-- !private "ZMQ_XPUB"
-- !private "ZMQ_SUB"
-- !private "ZMQ_MAX_SOCKETS"
 - !private "ZMQ_IO_THREADS"
-- "Int32"
-- !private "ZMQ_THREAD_PRIORITY"
-- !private "FloatLiteralType"
-- !private "ZMQ_THREAD_SCHED_POLICY"
-- "SocketType"
+- "Context"
+- "Bool"
+- !private "ZMQ_SOCKET_LIMIT"
+- !private "ZMQ_REQ"
+- !private "ZMQ_DEALER"
+- !private "ZMQ_PUB"
+- !private "zmq_ctx_get"
+- !private "ZMQ_STREAM"
+- !private "zmq_ctx_new"
+- !private "!="
+- !private "ZMQ_MAX_SOCKETS"
 - "Socket"
-- !private "ZMQ_IPV6"
+- !private "FloatLiteralType"
+- "SocketType"
+- !private "ZMQ_XPUB"
+- "UnsafeMutableRawPointer"
+- !private "ZMQ_PULL"
+- !private "IntegerLiteralType"
 - !private "ZMQ_REP"
 - !private "zmq_ctx_term"
-- !private "IntegerLiteralType"
-- !private "ZMQ_XSUB"
-- "=="
-- !private "~="
-- "Void"
+- !private "ZMQ_THREAD_PRIORITY"
+- "TernaryPrecedence"
 - !private "ZMQ_ROUTER"
-- "UnsafeMutablePointer"
-- !private "ZMQ_PUSH"
+- !private "ZMQ_THREAD_SCHED_POLICY"
+- !private "Error"
+- !private "ZMQ_IPV6"
+- "=="
+- "AssignmentPrecedence"
+- !private "ZMQ_SUB"
+- !private "~="
+- !private "zmq_socket"
+- "Int32"
 depends-member:
 - !private ["Ps9AnyObject", "Error"]
 - !private ["Ps9AnyObject", "IOThreads"]
@@ -76,8 +77,6 @@ depends-member:
 - ["Ps9AnyObject", ""]
 - !private ["Ps17BitwiseOperations", "hashValue"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["Ps7Boolean", "_getBuiltinLogicValue"]
-- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps7CVarArg", "hashValue"]
 - !private ["Ps10Comparable", "hashValue"]
 - ["C6ZeroMQ7Context", "Bool"]
@@ -87,8 +86,7 @@ depends-member:
 - ["C6ZeroMQ7Context", "Int32"]
 - ["C6ZeroMQ7Context", "Socket"]
 - ["C6ZeroMQ7Context", "SocketType"]
-- ["C6ZeroMQ7Context", "UnsafeMutablePointer"]
-- ["C6ZeroMQ7Context", "Void"]
+- ["C6ZeroMQ7Context", "UnsafeMutableRawPointer"]
 - !private ["C6ZeroMQ7Context", "ZMQ_IO_THREADS"]
 - !private ["C6ZeroMQ7Context", "ZMQ_IPV6"]
 - !private ["C6ZeroMQ7Context", "ZMQ_MAX_SOCKETS"]
@@ -145,12 +143,16 @@ depends-member:
 - !private ["Ps9Equatable", "ZMQ_XPUB"]
 - !private ["Ps9Equatable", "ZMQ_XSUB"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
 - ["Ps9Equatable", "hashValue"]
 - !private ["Ps9Equatable", "rawValue"]
 - ["Ps9Equatable", ""]
+- !private ["Ps5Error", "lastError"]
 - !private ["V6ZeroMQ5Error", "deinit"]
 - !private ["V6ZeroMQ5Error", "lastError"]
-- !private ["Ps13ErrorProtocol", "lastError"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
 - ["Ps8Hashable", "Dealer"]
 - ["Ps8Hashable", "Pair"]
 - ["Ps8Hashable", "Pub"]
@@ -176,20 +178,20 @@ depends-member:
 - !private ["Ps8Hashable", "ZMQ_XPUB"]
 - !private ["Ps8Hashable", "ZMQ_XSUB"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
 - ["Ps8Hashable", "hashValue"]
 - !private ["Ps8Hashable", "rawValue"]
 - ["Ps8Hashable", ""]
 - !private ["Si", "hashValue"]
 - !private ["Ps7Integer", "hashValue"]
 - !private ["Ps17IntegerArithmetic", "hashValue"]
-- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
 - !private ["Ps10MirrorPath", "hashValue"]
-- ["Ps21NilLiteralConvertible", "some"]
 - !private ["Sq", "deinit"]
 - ["Sq", "some"]
 - !private ["Ps13SignedInteger", "hashValue"]
 - !private ["Ps12SignedNumber", "hashValue"]
 - !private ["C6ZeroMQ6Socket", "init"]
+- ["O6ZeroMQ10SocketType", "=="]
 - ["O6ZeroMQ10SocketType", "Dealer"]
 - ["O6ZeroMQ10SocketType", "Int32"]
 - ["O6ZeroMQ10SocketType", "Pair"]
@@ -215,14 +217,44 @@ depends-member:
 - !private ["O6ZeroMQ10SocketType", "ZMQ_SUB"]
 - !private ["O6ZeroMQ10SocketType", "ZMQ_XPUB"]
 - !private ["O6ZeroMQ10SocketType", "ZMQ_XSUB"]
+- ["O6ZeroMQ10SocketType", "_toAnyHashable"]
 - ["O6ZeroMQ10SocketType", "deinit"]
 - ["O6ZeroMQ10SocketType", "hashValue"]
 - ["O6ZeroMQ10SocketType", "init"]
 - ["O6ZeroMQ10SocketType", "rawValue"]
 - !private ["Ps10Strideable", "hashValue"]
 - !private ["P2C721TimeUnitRepresentable", "hashValue"]
-- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
-- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps9_Hashable", "Dealer"]
+- ["Ps9_Hashable", "Pair"]
+- ["Ps9_Hashable", "Pub"]
+- ["Ps9_Hashable", "Pull"]
+- ["Ps9_Hashable", "Push"]
+- ["Ps9_Hashable", "Rep"]
+- ["Ps9_Hashable", "Req"]
+- ["Ps9_Hashable", "Router"]
+- ["Ps9_Hashable", "Stream"]
+- ["Ps9_Hashable", "Sub"]
+- ["Ps9_Hashable", "XPub"]
+- ["Ps9_Hashable", "XSub"]
+- !private ["Ps9_Hashable", "ZMQ_DEALER"]
+- !private ["Ps9_Hashable", "ZMQ_PAIR"]
+- !private ["Ps9_Hashable", "ZMQ_PUB"]
+- !private ["Ps9_Hashable", "ZMQ_PULL"]
+- !private ["Ps9_Hashable", "ZMQ_PUSH"]
+- !private ["Ps9_Hashable", "ZMQ_REP"]
+- !private ["Ps9_Hashable", "ZMQ_REQ"]
+- !private ["Ps9_Hashable", "ZMQ_ROUTER"]
+- !private ["Ps9_Hashable", "ZMQ_STREAM"]
+- !private ["Ps9_Hashable", "ZMQ_SUB"]
+- !private ["Ps9_Hashable", "ZMQ_XPUB"]
+- !private ["Ps9_Hashable", "ZMQ_XSUB"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "rawValue"]
+- ["Ps9_Hashable", ""]
 - !private ["Ps14_Incrementable", "hashValue"]
 - !private ["Ps8_Integer", "hashValue"]
 - !private ["Ps18_IntegerArithmetic", "hashValue"]
@@ -233,8 +265,6 @@ depends-nominal:
 - "Ps9AnyObject"
 - !private "Ps17BitwiseOperations"
 - !private "Sb"
-- !private "Ps7Boolean"
-- !private "Ps25BooleanLiteralConvertible"
 - !private "Ps7CVarArg"
 - !private "Ps10Comparable"
 - "C6ZeroMQ7Context"
@@ -243,15 +273,16 @@ depends-nominal:
 - "Ps17CustomReflectable"
 - !private "Ps23CustomStringConvertible"
 - "Ps9Equatable"
+- !private "Ps5Error"
 - !private "V6ZeroMQ5Error"
-- !private "Ps13ErrorProtocol"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
 - "Ps8Hashable"
 - !private "Si"
 - !private "Ps7Integer"
 - !private "Ps17IntegerArithmetic"
-- !private "Ps25IntegerLiteralConvertible"
 - !private "Ps10MirrorPath"
-- "Ps21NilLiteralConvertible"
 - "Sq"
 - !private "Ps13SignedInteger"
 - !private "Ps12SignedNumber"
@@ -259,8 +290,9 @@ depends-nominal:
 - "O6ZeroMQ10SocketType"
 - !private "Ps10Strideable"
 - !private "P2C721TimeUnitRepresentable"
-- !private "Ps33_BuiltinBooleanLiteralConvertible"
-- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
 - !private "Ps14_Incrementable"
 - !private "Ps8_Integer"
 - !private "Ps18_IntegerArithmetic"
@@ -269,21 +301,22 @@ depends-nominal:
 - !private "Ps11_Strideable"
 depends-dynamic-lookup:
 depends-external:
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/Visibility.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/module.map"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
-- "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.swiftmodule"
-interface-hash: "86d3a741864454a69b0a51749139c336"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/Visibility.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/DispatchShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/shims/module.modulemap"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-07-28-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Volumes/Repositories/Nodes/zeromq-example/.build/debug/C7.swiftmodule"
+interface-hash: "d0ed55003efa1725d982817c27a4843e"
