@@ -27,7 +27,7 @@ let portString = "tcp://127.0.0.1:\(port)"
 print ("Connecting to hello world server on \(portString)\n")
 portString.withCString { pointer in
     
-    let result = zmq_connect (requester, portString)
+    let result = zmq_connect (requester, pointer)
     if result != 0 {
         perror("zmq_connect")
         exit(1)
@@ -37,7 +37,7 @@ portString.withCString { pointer in
 for i in 0..<10 {
     print("Sending Hello \(i)…\n")
     let res = zmq_send (requester, "Hello", 5, 0);
-    if res != 0 {
+    if res == -1 {
         perror("zmq_send");
         sleep(1)
         break

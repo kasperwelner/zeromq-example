@@ -23,6 +23,7 @@ if (zmq_setsockopt(responder, ZMQ_LINGER, &optval, optsize) == -1) {
 }
 guard Process.arguments.count > 1, let port = Process.arguments.last else { print("Please specify port");exit(1) }
 let portString = "tcp://127.0.0.1:\(port)"
+
 portString.withCString { pointer in
     let rc = zmq_bind (responder, pointer)
     if rc != 0 {
