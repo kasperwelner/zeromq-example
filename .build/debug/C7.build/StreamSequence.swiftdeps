@@ -1,0 +1,202 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StreamSequence"
+provides-nominal:
+- "C2C714StreamSequence"
+provides-member:
+- ["C2C714StreamSequence", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "StreamSequence"
+- "IntegerLiteralType"
+- "Sequence"
+- "Stream"
+- "FloatLiteralType"
+- "Double"
+- "AnyIterator"
+- "Data"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "never"]
+- ["Vs11AnyIterator", "Element"]
+- !private ["Vs11AnyIterator", "init"]
+- !private ["Ps9AnyObject", "AnyIterator"]
+- ["Ps9AnyObject", "Element"]
+- ["Ps9AnyObject", "Iterator"]
+- ["Ps9AnyObject", "SubSequence"]
+- ["Ps9AnyObject", "_copyContents"]
+- ["Ps9AnyObject", "_copyToNativeArrayBuffer"]
+- ["Ps9AnyObject", "_customContainsEquatableElement"]
+- ["Ps9AnyObject", "_preprocessingPass"]
+- !private ["Ps9AnyObject", "deadline"]
+- ["Ps9AnyObject", "dropFirst"]
+- ["Ps9AnyObject", "dropLast"]
+- ["Ps9AnyObject", "filter"]
+- ["Ps9AnyObject", "first"]
+- ["Ps9AnyObject", "forEach"]
+- ["Ps9AnyObject", "makeIterator"]
+- ["Ps9AnyObject", "map"]
+- ["Ps9AnyObject", "prefix"]
+- ["Ps9AnyObject", "split"]
+- !private ["Ps9AnyObject", "stream"]
+- ["Ps9AnyObject", "suffix"]
+- ["Ps9AnyObject", "underestimatedCount"]
+- ["Ps9AnyObject", ""]
+- ["Vs11AnySequence", "Iterator"]
+- ["Vs11AnySequence", "SubSequence"]
+- !private ["P2C714AsyncReceiving", "closed"]
+- !private ["P2C714AsyncReceiving", "receive"]
+- !private ["P2C712AsyncSending", "closed"]
+- !private ["P2C712AsyncSending", "receive"]
+- !private ["Ps19BinaryFloatingPoint", "never"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7Boolean", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "never"]
+- !private ["P2C78Closable", "closed"]
+- !private ["P2C78Closable", "receive"]
+- !private ["Ps10Comparable", "never"]
+- !private ["Ps28CustomDebugStringConvertible", "never"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "never"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "never"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "never"]
+- !private ["Sd", "never"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "never"]
+- !private ["Ps23FloatLiteralConvertible", "never"]
+- !private ["Ps13FloatingPoint", "never"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "never"]
+- !private ["Ps25IntegerLiteralConvertible", "never"]
+- ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps16IteratorProtocol", "init"]
+- !private ["P2C79Receiving", "closed"]
+- !private ["P2C79Receiving", "receive"]
+- !private ["P2C715ReceivingStream", "closed"]
+- !private ["P2C715ReceivingStream", "receive"]
+- !private ["P2C77Sending", "closed"]
+- !private ["P2C77Sending", "receive"]
+- !private ["P2C713SendingStream", "closed"]
+- !private ["P2C713SendingStream", "receive"]
+- !private ["Ps8Sequence", "AnyIterator"]
+- ["Ps8Sequence", "Element"]
+- ["Ps8Sequence", "Iterator"]
+- ["Ps8Sequence", "SubSequence"]
+- ["Ps8Sequence", "_copyContents"]
+- ["Ps8Sequence", "_copyToNativeArrayBuffer"]
+- ["Ps8Sequence", "_customContainsEquatableElement"]
+- ["Ps8Sequence", "_preprocessingPass"]
+- !private ["Ps8Sequence", "deadline"]
+- ["Ps8Sequence", "dropFirst"]
+- ["Ps8Sequence", "dropLast"]
+- ["Ps8Sequence", "filter"]
+- ["Ps8Sequence", "first"]
+- ["Ps8Sequence", "forEach"]
+- !private ["Ps8Sequence", "init"]
+- ["Ps8Sequence", "makeIterator"]
+- ["Ps8Sequence", "map"]
+- ["Ps8Sequence", "prefix"]
+- ["Ps8Sequence", "split"]
+- !private ["Ps8Sequence", "stream"]
+- ["Ps8Sequence", "suffix"]
+- ["Ps8Sequence", "underestimatedCount"]
+- ["Ps8Sequence", ""]
+- !private ["Ps12SignedNumber", "never"]
+- !private ["P2C76Stream", "closed"]
+- !private ["P2C76Stream", "receive"]
+- ["C2C714StreamSequence", "AnyIterator"]
+- ["C2C714StreamSequence", "Data"]
+- ["C2C714StreamSequence", "Double"]
+- ["C2C714StreamSequence", "Element"]
+- ["C2C714StreamSequence", "Iterator"]
+- ["C2C714StreamSequence", "Stream"]
+- ["C2C714StreamSequence", "SubSequence"]
+- ["C2C714StreamSequence", "_copyContents"]
+- ["C2C714StreamSequence", "_copyToNativeArrayBuffer"]
+- ["C2C714StreamSequence", "_customContainsEquatableElement"]
+- ["C2C714StreamSequence", "_preprocessingPass"]
+- ["C2C714StreamSequence", "deadline"]
+- ["C2C714StreamSequence", "deinit"]
+- ["C2C714StreamSequence", "dropFirst"]
+- ["C2C714StreamSequence", "dropLast"]
+- ["C2C714StreamSequence", "filter"]
+- ["C2C714StreamSequence", "first"]
+- ["C2C714StreamSequence", "forEach"]
+- ["C2C714StreamSequence", "init"]
+- ["C2C714StreamSequence", "makeIterator"]
+- ["C2C714StreamSequence", "map"]
+- ["C2C714StreamSequence", "prefix"]
+- ["C2C714StreamSequence", "split"]
+- ["C2C714StreamSequence", "stream"]
+- ["C2C714StreamSequence", "suffix"]
+- ["C2C714StreamSequence", "underestimatedCount"]
+- !private ["Ps10Strideable", "never"]
+- !private ["P2C721TimeUnitRepresentable", "never"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "never"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "never"]
+- !private ["Ps15_CVarArgAligned", "never"]
+- !private ["Ps22_CVarArgPassedAsDouble", "never"]
+- !private ["Ps11_Strideable", "never"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Vs11AnyIterator"
+- "Ps9AnyObject"
+- "Vs11AnySequence"
+- !private "P2C714AsyncReceiving"
+- !private "P2C712AsyncSending"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- !private "Ps7Boolean"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps7CVarArg"
+- !private "P2C78Closable"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps13FloatingPoint"
+- !private "Ps8Hashable"
+- !private "Ps25IntegerLiteralConvertible"
+- "Ps16IteratorProtocol"
+- !private "P2C79Receiving"
+- !private "P2C715ReceivingStream"
+- !private "P2C77Sending"
+- !private "P2C713SendingStream"
+- "Ps8Sequence"
+- !private "Ps12SignedNumber"
+- !private "P2C76Stream"
+- "C2C714StreamSequence"
+- !private "Ps10Strideable"
+- !private "P2C721TimeUnitRepresentable"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/Visibility.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/module.map"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+interface-hash: "73cbbaf84e23e6f75b50d66a184e0c27"

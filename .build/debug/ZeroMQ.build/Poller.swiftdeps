@@ -1,0 +1,418 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PollEvent"
+- "PollItemEvent"
+- "poll"
+provides-nominal:
+- "V6ZeroMQ9PollEvent"
+- "O6ZeroMQ13PollItemEvent"
+provides-member:
+- ["V6ZeroMQ9PollEvent", ""]
+- ["O6ZeroMQ13PollItemEvent", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Int16"
+- "Int32"
+- "PollItemEvent"
+- "Int"
+- "ZMQ_POLLOUT"
+- "UnsafeMutablePointer"
+- "Void"
+- "OptionSet"
+- "ZMQ_POLLERR"
+- !private "zmq_poll"
+- "poll"
+- "PollEvent"
+- "ZMQ_POLLIN"
+- !private "FloatLiteralType"
+- !private "Error"
+- "zmq_pollitem_t"
+- !private "IntegerLiteralType"
+- !private "!="
+- "=="
+depends-member:
+- !private ["Sa", "IndexDistance"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "map"]
+- ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "IndexDistance"]
+- ["Ps23ArrayLiteralConvertible", "Int16"]
+- !private ["Ps23ArrayLiteralConvertible", "Iterator"]
+- ["Ps23ArrayLiteralConvertible", "PollEvent"]
+- ["Ps23ArrayLiteralConvertible", "RawValue"]
+- ["Ps23ArrayLiteralConvertible", "ZMQ_POLLERR"]
+- ["Ps23ArrayLiteralConvertible", "ZMQ_POLLIN"]
+- ["Ps23ArrayLiteralConvertible", "ZMQ_POLLOUT"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- ["Ps23ArrayLiteralConvertible", "contains"]
+- !private ["Ps23ArrayLiteralConvertible", "count"]
+- ["Ps23ArrayLiteralConvertible", "formIntersection"]
+- ["Ps23ArrayLiteralConvertible", "formSymmetricDifference"]
+- ["Ps23ArrayLiteralConvertible", "formUnion"]
+- ["Ps23ArrayLiteralConvertible", "init"]
+- ["Ps23ArrayLiteralConvertible", "insert"]
+- ["Ps23ArrayLiteralConvertible", "intersection"]
+- ["Ps23ArrayLiteralConvertible", "isDisjoint"]
+- ["Ps23ArrayLiteralConvertible", "isEmpty"]
+- ["Ps23ArrayLiteralConvertible", "isSubset"]
+- ["Ps23ArrayLiteralConvertible", "isSuperset"]
+- !private ["Ps23ArrayLiteralConvertible", "map"]
+- ["Ps23ArrayLiteralConvertible", "rawValue"]
+- ["Ps23ArrayLiteralConvertible", "remove"]
+- ["Ps23ArrayLiteralConvertible", "subtract"]
+- ["Ps23ArrayLiteralConvertible", "subtracting"]
+- ["Ps23ArrayLiteralConvertible", "symmetricDifference"]
+- ["Ps23ArrayLiteralConvertible", "union"]
+- ["Ps23ArrayLiteralConvertible", "update"]
+- ["Ps23ArrayLiteralConvertible", ""]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "count"]
+- !private ["Ps22BidirectionalIndexable", "map"]
+- ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7Boolean", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "map"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lastError"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- ["Ps9Equatable", "Element"]
+- ["Ps9Equatable", "Int16"]
+- ["Ps9Equatable", "PollEvent"]
+- ["Ps9Equatable", "RawValue"]
+- ["Ps9Equatable", "ZMQ_POLLERR"]
+- ["Ps9Equatable", "ZMQ_POLLIN"]
+- ["Ps9Equatable", "ZMQ_POLLOUT"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "contains"]
+- ["Ps9Equatable", "formIntersection"]
+- ["Ps9Equatable", "formSymmetricDifference"]
+- ["Ps9Equatable", "formUnion"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "insert"]
+- ["Ps9Equatable", "intersection"]
+- ["Ps9Equatable", "isDisjoint"]
+- ["Ps9Equatable", "isEmpty"]
+- ["Ps9Equatable", "isSubset"]
+- ["Ps9Equatable", "isSuperset"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "remove"]
+- ["Ps9Equatable", "subtract"]
+- ["Ps9Equatable", "subtracting"]
+- ["Ps9Equatable", "symmetricDifference"]
+- ["Ps9Equatable", "union"]
+- ["Ps9Equatable", "update"]
+- ["Ps9Equatable", ""]
+- !private ["V6ZeroMQ5Error", "deinit"]
+- !private ["V6ZeroMQ5Error", "lastError"]
+- !private ["Ps13ErrorProtocol", "lastError"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "map"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "count"]
+- !private ["Ps13IndexableBase", "map"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Vs5Int16", "init"]
+- !private ["Vs5Int32", "init"]
+- ["Ps7Integer", "init"]
+- ["Ps17IntegerArithmetic", "init"]
+- ["Ps25IntegerLiteralConvertible", "init"]
+- ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps17MutableCollection", "IndexDistance"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "map"]
+- !private ["Ps16MutableIndexable", "IndexDistance"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["Ps16MutableIndexable", "map"]
+- ["Ps9OptionSet", "Element"]
+- ["Ps9OptionSet", "Int16"]
+- ["Ps9OptionSet", "PollEvent"]
+- ["Ps9OptionSet", "RawValue"]
+- ["Ps9OptionSet", "ZMQ_POLLERR"]
+- ["Ps9OptionSet", "ZMQ_POLLIN"]
+- ["Ps9OptionSet", "ZMQ_POLLOUT"]
+- ["Ps9OptionSet", "contains"]
+- ["Ps9OptionSet", "formIntersection"]
+- ["Ps9OptionSet", "formSymmetricDifference"]
+- ["Ps9OptionSet", "formUnion"]
+- ["Ps9OptionSet", "init"]
+- ["Ps9OptionSet", "insert"]
+- ["Ps9OptionSet", "intersection"]
+- ["Ps9OptionSet", "isDisjoint"]
+- ["Ps9OptionSet", "isEmpty"]
+- ["Ps9OptionSet", "isSubset"]
+- ["Ps9OptionSet", "isSuperset"]
+- ["Ps9OptionSet", "rawValue"]
+- ["Ps9OptionSet", "remove"]
+- ["Ps9OptionSet", "subtract"]
+- ["Ps9OptionSet", "subtracting"]
+- ["Ps9OptionSet", "symmetricDifference"]
+- ["Ps9OptionSet", "union"]
+- ["Ps9OptionSet", "update"]
+- ["Ps9OptionSet", ""]
+- !private ["Sq", "deinit"]
+- ["V6ZeroMQ9PollEvent", "Element"]
+- ["V6ZeroMQ9PollEvent", "Error"]
+- ["V6ZeroMQ9PollEvent", "In"]
+- ["V6ZeroMQ9PollEvent", "Int16"]
+- ["V6ZeroMQ9PollEvent", "Out"]
+- ["V6ZeroMQ9PollEvent", "PollEvent"]
+- ["V6ZeroMQ9PollEvent", "RawValue"]
+- ["V6ZeroMQ9PollEvent", "ZMQ_POLLERR"]
+- ["V6ZeroMQ9PollEvent", "ZMQ_POLLIN"]
+- ["V6ZeroMQ9PollEvent", "ZMQ_POLLOUT"]
+- ["V6ZeroMQ9PollEvent", "contains"]
+- ["V6ZeroMQ9PollEvent", "deinit"]
+- ["V6ZeroMQ9PollEvent", "formIntersection"]
+- ["V6ZeroMQ9PollEvent", "formSymmetricDifference"]
+- ["V6ZeroMQ9PollEvent", "formUnion"]
+- ["V6ZeroMQ9PollEvent", "init"]
+- ["V6ZeroMQ9PollEvent", "insert"]
+- ["V6ZeroMQ9PollEvent", "intersection"]
+- ["V6ZeroMQ9PollEvent", "isDisjoint"]
+- ["V6ZeroMQ9PollEvent", "isEmpty"]
+- ["V6ZeroMQ9PollEvent", "isSubset"]
+- ["V6ZeroMQ9PollEvent", "isSuperset"]
+- ["V6ZeroMQ9PollEvent", "rawValue"]
+- ["V6ZeroMQ9PollEvent", "remove"]
+- ["V6ZeroMQ9PollEvent", "subtract"]
+- ["V6ZeroMQ9PollEvent", "subtracting"]
+- ["V6ZeroMQ9PollEvent", "symmetricDifference"]
+- ["V6ZeroMQ9PollEvent", "union"]
+- ["V6ZeroMQ9PollEvent", "update"]
+- ["O6ZeroMQ13PollItemEvent", "FileDescriptor"]
+- ["O6ZeroMQ13PollItemEvent", "Int32"]
+- ["O6ZeroMQ13PollItemEvent", "PollEvent"]
+- ["O6ZeroMQ13PollItemEvent", "Socket"]
+- ["O6ZeroMQ13PollItemEvent", "UnsafeMutablePointer"]
+- ["O6ZeroMQ13PollItemEvent", "Void"]
+- ["O6ZeroMQ13PollItemEvent", "init"]
+- ["O6ZeroMQ13PollItemEvent", "pollItem"]
+- ["O6ZeroMQ13PollItemEvent", "zmq_pollitem_t"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "count"]
+- !private ["Ps21RandomAccessIndexable", "map"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "map"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "count"]
+- !private ["Ps25RangeReplaceableIndexable", "map"]
+- ["Ps16RawRepresentable", "Element"]
+- ["Ps16RawRepresentable", "Int16"]
+- ["Ps16RawRepresentable", "PollEvent"]
+- ["Ps16RawRepresentable", "RawValue"]
+- ["Ps16RawRepresentable", "ZMQ_POLLERR"]
+- ["Ps16RawRepresentable", "ZMQ_POLLIN"]
+- ["Ps16RawRepresentable", "ZMQ_POLLOUT"]
+- ["Ps16RawRepresentable", "contains"]
+- ["Ps16RawRepresentable", "formIntersection"]
+- ["Ps16RawRepresentable", "formSymmetricDifference"]
+- ["Ps16RawRepresentable", "formUnion"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "insert"]
+- ["Ps16RawRepresentable", "intersection"]
+- ["Ps16RawRepresentable", "isDisjoint"]
+- ["Ps16RawRepresentable", "isEmpty"]
+- ["Ps16RawRepresentable", "isSubset"]
+- ["Ps16RawRepresentable", "isSuperset"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "remove"]
+- ["Ps16RawRepresentable", "subtract"]
+- ["Ps16RawRepresentable", "subtracting"]
+- ["Ps16RawRepresentable", "symmetricDifference"]
+- ["Ps16RawRepresentable", "union"]
+- ["Ps16RawRepresentable", "update"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "map"]
+- ["Ps10SetAlgebra", "Element"]
+- ["Ps10SetAlgebra", "Int16"]
+- ["Ps10SetAlgebra", "PollEvent"]
+- ["Ps10SetAlgebra", "RawValue"]
+- ["Ps10SetAlgebra", "ZMQ_POLLERR"]
+- ["Ps10SetAlgebra", "ZMQ_POLLIN"]
+- ["Ps10SetAlgebra", "ZMQ_POLLOUT"]
+- ["Ps10SetAlgebra", "contains"]
+- ["Ps10SetAlgebra", "formIntersection"]
+- ["Ps10SetAlgebra", "formSymmetricDifference"]
+- ["Ps10SetAlgebra", "formUnion"]
+- ["Ps10SetAlgebra", "init"]
+- ["Ps10SetAlgebra", "insert"]
+- ["Ps10SetAlgebra", "intersection"]
+- ["Ps10SetAlgebra", "isDisjoint"]
+- ["Ps10SetAlgebra", "isEmpty"]
+- ["Ps10SetAlgebra", "isSubset"]
+- ["Ps10SetAlgebra", "isSuperset"]
+- ["Ps10SetAlgebra", "rawValue"]
+- ["Ps10SetAlgebra", "remove"]
+- ["Ps10SetAlgebra", "subtract"]
+- ["Ps10SetAlgebra", "subtracting"]
+- ["Ps10SetAlgebra", "symmetricDifference"]
+- ["Ps10SetAlgebra", "union"]
+- ["Ps10SetAlgebra", "update"]
+- ["Ps10SetAlgebra", ""]
+- ["Ps13SignedInteger", "init"]
+- ["Ps12SignedNumber", "init"]
+- ["Ps10Strideable", "init"]
+- !private ["Sp", "deinit"]
+- !private ["Ps14_ArrayProtocol", "IndexDistance"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "map"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps24_DestructorSafeContainer", "IndexDistance"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "map"]
+- ["Ps14_Incrementable", "init"]
+- ["Ps8_Integer", "init"]
+- ["Ps18_IntegerArithmetic", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- ["Ps14_SignedInteger", "init"]
+- ["Ps11_Strideable", "init"]
+- !private ["VSC14zmq_pollitem_t", "fd"]
+- !private ["VSC14zmq_pollitem_t", "init"]
+- !private ["VSC14zmq_pollitem_t", "revents"]
+- !private ["VSC14zmq_pollitem_t", "socket"]
+depends-nominal:
+- !private "Sa"
+- "Ps23ArrayLiteralConvertible"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7Boolean"
+- !private "Ps25BooleanLiteralConvertible"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "V6ZeroMQ5Error"
+- !private "Ps13ErrorProtocol"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Vs5Int16"
+- !private "Vs5Int32"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "Ps25IntegerLiteralConvertible"
+- "Ps16IteratorProtocol"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "Ps9OptionSet"
+- !private "Sq"
+- "V6ZeroMQ9PollEvent"
+- "O6ZeroMQ13PollItemEvent"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "Ps16RawRepresentable"
+- "Ps8Sequence"
+- "Ps10SetAlgebra"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "Ps10Strideable"
+- !private "Sp"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- "Ps14_Incrementable"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+- !private "VSC14zmq_pollitem_t"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/Visibility.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/module.map"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.swiftmodule"
+interface-hash: "800bfd042c1a8d3ba892dbd5a4712a15"

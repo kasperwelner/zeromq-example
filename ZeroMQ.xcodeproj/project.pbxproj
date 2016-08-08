@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		_LinkFileRef_C7_via_ZeroMQ /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_zeromq_gui /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_C7_via_zeromqcli /* C7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* C7.framework */; };
+		_LinkFileRef_ZeroMQ_via_zeromq_gui /* ZeroMQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_ZeroMQ" /* ZeroMQ.framework */; };
+		_LinkFileRef_ZeroMQ_via_zeromqcli /* ZeroMQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_ZeroMQ" /* ZeroMQ.framework */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/AsyncConnection.swift" /* AsyncConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/AsyncConnection.swift" /* AsyncConnection.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/AsyncDrain.swift" /* AsyncDrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/AsyncDrain.swift" /* AsyncDrain.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/AsyncHost.swift" /* AsyncHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/AsyncHost.swift" /* AsyncHost.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/AsyncStream.swift" /* AsyncStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/AsyncStream.swift" /* AsyncStream.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/Byte.swift" /* Byte.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/Byte.swift" /* Byte.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/C7.swift" /* C7.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/C7.swift" /* C7.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/Closable.swift" /* Closable.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/Closable.swift" /* Closable.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/Connection.swift" /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/Connection.swift" /* Connection.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/CustomDataStore.swift" /* CustomDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/CustomDataStore.swift" /* CustomDataStore.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/Data.swift" /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/Data.swift" /* Data.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/Drain.swift" /* Drain.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/Drain.swift" /* Drain.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/Host.swift" /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/Host.swift" /* Host.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/Query.swift" /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/Query.swift" /* Query.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/QueryField.swift" /* QueryField.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/QueryField.swift" /* QueryField.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/Stream.swift" /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/Stream.swift" /* Stream.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/StreamError.swift" /* StreamError.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/StreamError.swift" /* StreamError.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/StreamSequence.swift" /* StreamSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/StreamSequence.swift" /* StreamSequence.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/Time.swift" /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/Time.swift" /* Time.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/URI.swift" /* URI.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/URI.swift" /* URI.swift */; };
+		"__src_cc_ref_Packages/C7-0.7.4/Sources/URIConnection.swift" /* URIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.7.4/Sources/URIConnection.swift" /* URIConnection.swift */; };
+		"__src_cc_ref_Packages/ZeroMQ-0.5.3/Sources/CURVE.swift" /* CURVE.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/CURVE.swift" /* CURVE.swift */; };
+		"__src_cc_ref_Packages/ZeroMQ-0.5.3/Sources/Context.swift" /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Context.swift" /* Context.swift */; };
+		"__src_cc_ref_Packages/ZeroMQ-0.5.3/Sources/Error.swift" /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Error.swift" /* Error.swift */; };
+		"__src_cc_ref_Packages/ZeroMQ-0.5.3/Sources/Message.swift" /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Message.swift" /* Message.swift */; };
+		"__src_cc_ref_Packages/ZeroMQ-0.5.3/Sources/Poller.swift" /* Poller.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Poller.swift" /* Poller.swift */; };
+		"__src_cc_ref_Packages/ZeroMQ-0.5.3/Sources/Proxy.swift" /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Proxy.swift" /* Proxy.swift */; };
+		"__src_cc_ref_Packages/ZeroMQ-0.5.3/Sources/Socket.swift" /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Socket.swift" /* Socket.swift */; };
+		"__src_cc_ref_zeromq-gui/AppDelegate.swift" /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_zeromq-gui/AppDelegate.swift" /* AppDelegate.swift */; };
+		"__src_cc_ref_zeromq-gui/ViewController.swift" /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_zeromq-gui/ViewController.swift" /* ViewController.swift */; };
+		__src_cc_ref_zeromqcli/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_zeromqcli/main.swift /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		308260311D57997100E84A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_C7";
+			remoteInfo = C7;
+		};
+		308260321D57997100E84A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_ZeroMQ";
+			remoteInfo = ZeroMQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		__PBXFileRef_C7_Info.plist /* C7_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = C7_Info.plist; path = ZeroMQ.xcodeproj/C7_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/AsyncConnection.swift" /* AsyncConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncConnection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/AsyncDrain.swift" /* AsyncDrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDrain.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/AsyncHost.swift" /* AsyncHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncHost.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/AsyncStream.swift" /* AsyncStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStream.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncURIConnection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/Byte.swift" /* Byte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Byte.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/C7.swift" /* C7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C7.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseInsensitiveString.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/Closable.swift" /* Closable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closable.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/Connection.swift" /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/CustomDataStore.swift" /* CustomDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDataStore.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/Data.swift" /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/Drain.swift" /* Drain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drain.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/Host.swift" /* Host.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/Query.swift" /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/QueryField.swift" /* QueryField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryField.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/Stream.swift" /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/StreamError.swift" /* StreamError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamError.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/StreamSequence.swift" /* StreamSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamSequence.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/Time.swift" /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/URI.swift" /* URI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URI.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/C7-0.7.4/Sources/URIConnection.swift" /* URIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URIConnection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/CURVE.swift" /* CURVE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CURVE.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Context.swift" /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Error.swift" /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Message.swift" /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Poller.swift" /* Poller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poller.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Proxy.swift" /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Socket.swift" /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		__PBXFileRef_ZeroMQ.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = ZeroMQ.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
+		__PBXFileRef_ZeroMQ_Info.plist /* ZeroMQ_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ZeroMQ_Info.plist; path = ZeroMQ.xcodeproj/ZeroMQ_Info.plist; sourceTree = SOURCE_ROOT; };
+		"__PBXFileRef_zeromq-gui/AppDelegate.swift" /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_zeromq-gui/ViewController.swift" /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		__PBXFileRef_zeromq_gui_Info.plist /* zeromq_gui_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = zeromq_gui_Info.plist; path = ZeroMQ.xcodeproj/zeromq_gui_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_zeromqcli/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		"_____Product_C7" /* C7.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = C7.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_ZeroMQ" /* ZeroMQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ZeroMQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_zeromq_gui" /* zeromq_gui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = zeromq_gui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_zeromqcli" /* zeromqcli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = zeromqcli; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		"___LinkPhase_C7" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_ZeroMQ" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_ZeroMQ /* C7.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_zeromq_gui" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_zeromq_gui /* C7.framework in Frameworks */,
+				_LinkFileRef_ZeroMQ_via_zeromq_gui /* ZeroMQ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_zeromqcli" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_C7_via_zeromqcli /* C7.framework in Frameworks */,
+				_LinkFileRef_ZeroMQ_via_zeromqcli /* ZeroMQ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		Dependencies_ /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_C7" /* C7 */,
+				"_______Group_ZeroMQ" /* ZeroMQ */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Configs_" /* Configs */,
+				"_____Sources_" /* Sources */,
+				Dependencies_ /* Dependencies */,
+				"____Products_" /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_C7" /* C7.framework */,
+				"_____Product_ZeroMQ" /* ZeroMQ.framework */,
+				"_____Product_zeromq_gui" /* zeromq_gui.framework */,
+				"_____Product_zeromqcli" /* zeromqcli */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Configs_" /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_ZeroMQ.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_zeromq_gui" /* zeromq-gui */,
+				"_______Group_zeromqcli" /* zeromqcli */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_C7" /* C7 */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/AsyncConnection.swift" /* AsyncConnection.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/AsyncDrain.swift" /* AsyncDrain.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/AsyncHost.swift" /* AsyncHost.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/AsyncStream.swift" /* AsyncStream.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/Byte.swift" /* Byte.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/C7.swift" /* C7.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/Closable.swift" /* Closable.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/Connection.swift" /* Connection.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/CustomDataStore.swift" /* CustomDataStore.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/Data.swift" /* Data.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/Drain.swift" /* Drain.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/Host.swift" /* Host.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/Query.swift" /* Query.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/QueryField.swift" /* QueryField.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/Stream.swift" /* Stream.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/StreamError.swift" /* StreamError.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/StreamSequence.swift" /* StreamSequence.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/Time.swift" /* Time.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/URI.swift" /* URI.swift */,
+				"__PBXFileRef_Packages/C7-0.7.4/Sources/URIConnection.swift" /* URIConnection.swift */,
+				__PBXFileRef_C7_Info.plist /* C7_Info.plist */,
+			);
+			name = C7;
+			path = "Packages/C7-0.7.4/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_ZeroMQ" /* ZeroMQ */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Context.swift" /* Context.swift */,
+				"__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/CURVE.swift" /* CURVE.swift */,
+				"__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Error.swift" /* Error.swift */,
+				"__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Message.swift" /* Message.swift */,
+				"__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Poller.swift" /* Poller.swift */,
+				"__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Proxy.swift" /* Proxy.swift */,
+				"__PBXFileRef_Packages/ZeroMQ-0.5.3/Sources/Socket.swift" /* Socket.swift */,
+				__PBXFileRef_ZeroMQ_Info.plist /* ZeroMQ_Info.plist */,
+			);
+			name = ZeroMQ;
+			path = "Packages/ZeroMQ-0.5.3/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_zeromq_gui" /* zeromq-gui */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_zeromq-gui/AppDelegate.swift" /* AppDelegate.swift */,
+				"__PBXFileRef_zeromq-gui/ViewController.swift" /* ViewController.swift */,
+				__PBXFileRef_zeromq_gui_Info.plist /* zeromq_gui_Info.plist */,
+			);
+			path = "zeromq-gui";
+			sourceTree = "<group>";
+		};
+		"_______Group_zeromqcli" /* zeromqcli */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_zeromqcli/main.swift /* main.swift */,
+			);
+			path = zeromqcli;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"______Target_C7" /* C7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_C7" /* Build configuration list for PBXNativeTarget "C7" */;
+			buildPhases = (
+				CompilePhase_C7 /* Sources */,
+				"___LinkPhase_C7" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C7;
+			productName = C7;
+			productReference = "_____Product_C7" /* C7.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_ZeroMQ" /* ZeroMQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_ZeroMQ" /* Build configuration list for PBXNativeTarget "ZeroMQ" */;
+			buildPhases = (
+				CompilePhase_ZeroMQ /* Sources */,
+				"___LinkPhase_ZeroMQ" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+			);
+			name = ZeroMQ;
+			productName = ZeroMQ;
+			productReference = "_____Product_ZeroMQ" /* ZeroMQ.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_zeromq_gui" /* zeromq-gui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_zeromq_gui" /* Build configuration list for PBXNativeTarget "zeromq-gui" */;
+			buildPhases = (
+				CompilePhase_zeromq_gui /* Sources */,
+				"___LinkPhase_zeromq_gui" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_ZeroMQ /* PBXTargetDependency */,
+			);
+			name = "zeromq-gui";
+			productName = zeromq_gui;
+			productReference = "_____Product_zeromq_gui" /* zeromq_gui.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_zeromqcli" /* zeromqcli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_zeromqcli" /* Build configuration list for PBXNativeTarget "zeromqcli" */;
+			buildPhases = (
+				CompilePhase_zeromqcli /* Sources */,
+				"___LinkPhase_zeromqcli" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_ZeroMQ /* PBXTargetDependency */,
+			);
+			name = zeromqcli;
+			productName = zeromqcli;
+			productReference = "_____Product_zeromqcli" /* zeromqcli */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "ZeroMQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"______Target_C7" /* C7 */,
+				"______Target_ZeroMQ" /* ZeroMQ */,
+				"______Target_zeromq_gui" /* zeromq-gui */,
+				"______Target_zeromqcli" /* zeromqcli */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CompilePhase_C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/AsyncConnection.swift" /* AsyncConnection.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/AsyncDrain.swift" /* AsyncDrain.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/AsyncHost.swift" /* AsyncHost.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/AsyncStream.swift" /* AsyncStream.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/AsyncURIConnection.swift" /* AsyncURIConnection.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/Byte.swift" /* Byte.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/C7.swift" /* C7.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/CaseInsensitiveString.swift" /* CaseInsensitiveString.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/Closable.swift" /* Closable.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/Connection.swift" /* Connection.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/CustomDataStore.swift" /* CustomDataStore.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/Data.swift" /* Data.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/Drain.swift" /* Drain.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/Host.swift" /* Host.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/Query.swift" /* Query.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/QueryField.swift" /* QueryField.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/Stream.swift" /* Stream.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/StreamError.swift" /* StreamError.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/StreamSequence.swift" /* StreamSequence.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/Time.swift" /* Time.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/URI.swift" /* URI.swift in Sources */,
+				"__src_cc_ref_Packages/C7-0.7.4/Sources/URIConnection.swift" /* URIConnection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_ZeroMQ /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/ZeroMQ-0.5.3/Sources/Context.swift" /* Context.swift in Sources */,
+				"__src_cc_ref_Packages/ZeroMQ-0.5.3/Sources/CURVE.swift" /* CURVE.swift in Sources */,
+				"__src_cc_ref_Packages/ZeroMQ-0.5.3/Sources/Error.swift" /* Error.swift in Sources */,
+				"__src_cc_ref_Packages/ZeroMQ-0.5.3/Sources/Message.swift" /* Message.swift in Sources */,
+				"__src_cc_ref_Packages/ZeroMQ-0.5.3/Sources/Poller.swift" /* Poller.swift in Sources */,
+				"__src_cc_ref_Packages/ZeroMQ-0.5.3/Sources/Proxy.swift" /* Proxy.swift in Sources */,
+				"__src_cc_ref_Packages/ZeroMQ-0.5.3/Sources/Socket.swift" /* Socket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_zeromq_gui /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_zeromq-gui/AppDelegate.swift" /* AppDelegate.swift in Sources */,
+				"__src_cc_ref_zeromq-gui/ViewController.swift" /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_zeromqcli /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_zeromqcli/main.swift /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		__Dependency_C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_C7" /* C7 */;
+			targetProxy = 308260311D57997100E84A10 /* PBXContainerItemProxy */;
+		};
+		__Dependency_ZeroMQ /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_ZeroMQ" /* ZeroMQ */;
+			targetProxy = 308260321D57997100E84A10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		_ReleaseConf_C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = ZeroMQ.xcodeproj/C7_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_ZeroMQ /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/CZeroMQ-0.5.1";
+				INFOPLIST_FILE = ZeroMQ.xcodeproj/ZeroMQ_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_zeromq_gui /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/CZeroMQ-0.5.1";
+				INFOPLIST_FILE = ZeroMQ.xcodeproj/zeromq_gui_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_zeromqcli /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/CZeroMQ-0.5.1";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+			};
+			name = Release;
+		};
+		"___DebugConf_C7" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = ZeroMQ.xcodeproj/C7_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_ZeroMQ" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/CZeroMQ-0.5.1";
+				INFOPLIST_FILE = ZeroMQ.xcodeproj/ZeroMQ_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_zeromq_gui" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/CZeroMQ-0.5.1";
+				INFOPLIST_FILE = ZeroMQ.xcodeproj/zeromq_gui_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_zeromqcli" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/CZeroMQ-0.5.1";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_ZeroMQ.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lzmq",
+				);
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_ZeroMQ.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lzmq",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		"___RootConfs_" /* Build configuration list for PBXProject "ZeroMQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_C7" /* Build configuration list for PBXNativeTarget "C7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_C7" /* Debug */,
+				_ReleaseConf_C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_ZeroMQ" /* Build configuration list for PBXNativeTarget "ZeroMQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_ZeroMQ" /* Debug */,
+				_ReleaseConf_ZeroMQ /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_zeromq_gui" /* Build configuration list for PBXNativeTarget "zeromq-gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_zeromq_gui" /* Debug */,
+				_ReleaseConf_zeromq_gui /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_zeromqcli" /* Build configuration list for PBXNativeTarget "zeromqcli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_zeromqcli" /* Debug */,
+				_ReleaseConf_zeromqcli /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}

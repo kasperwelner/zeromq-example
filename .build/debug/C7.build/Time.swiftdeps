@@ -1,0 +1,241 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "factor"
+- "now"
+- "TimeUnitRepresentable"
+provides-nominal:
+- "Sd"
+- "P2C721TimeUnitRepresentable"
+- "Si"
+provides-member:
+- ["Sd", ""]
+- ["P2C721TimeUnitRepresentable", ""]
+- ["Si", ""]
+- ["Sd", "fromNow"]
+- ["P2C721TimeUnitRepresentable", "milliseconds"]
+- ["P2C721TimeUnitRepresentable", "millisecond"]
+- ["P2C721TimeUnitRepresentable", "second"]
+- ["P2C721TimeUnitRepresentable", "minutes"]
+- ["P2C721TimeUnitRepresentable", "minute"]
+- ["P2C721TimeUnitRepresentable", "hours"]
+- ["P2C721TimeUnitRepresentable", "hour"]
+- ["Sd", "never"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "IntegerLiteralType"
+- !private "*"
+- !private "+"
+- "FloatLiteralType"
+- "/"
+- "now"
+- "mach_timebase_info_data_t"
+- "TimeUnitRepresentable"
+- !private "mach_absolute_time"
+- "Double"
+- "mach_timebase_info"
+- "factor"
+- "Int"
+depends-member:
+- ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps16AbsoluteValuable", "never"]
+- !private ["Ps16AbsoluteValuable", "now"]
+- ["Ps16AbsoluteValuable", "seconds"]
+- ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps19BinaryFloatingPoint", "never"]
+- !private ["Ps19BinaryFloatingPoint", "now"]
+- ["Ps19BinaryFloatingPoint", "seconds"]
+- !private ["Ps17BitwiseOperations", "Double"]
+- ["Ps17BitwiseOperations", "seconds"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7Boolean", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "Double"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "never"]
+- !private ["Ps7CVarArg", "now"]
+- ["Ps7CVarArg", "seconds"]
+- !private ["Ps10Comparable", "Double"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "never"]
+- !private ["Ps10Comparable", "now"]
+- ["Ps10Comparable", "seconds"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "never"]
+- !private ["Ps28CustomDebugStringConvertible", "now"]
+- ["Ps28CustomDebugStringConvertible", "seconds"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Double"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "never"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "now"]
+- ["Ps29CustomPlaygroundQuickLookable", "seconds"]
+- !private ["Ps17CustomReflectable", "Double"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "never"]
+- !private ["Ps17CustomReflectable", "now"]
+- ["Ps17CustomReflectable", "seconds"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "never"]
+- !private ["Ps23CustomStringConvertible", "now"]
+- ["Ps23CustomStringConvertible", "seconds"]
+- ["Sd", "Double"]
+- ["Sd", "deinit"]
+- ["Sd", "fromNow"]
+- ["Sd", "init"]
+- ["Sd", "never"]
+- !private ["Sd", "now"]
+- ["Sd", "seconds"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "never"]
+- !private ["Ps9Equatable", "now"]
+- ["Ps9Equatable", "seconds"]
+- ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps23FloatLiteralConvertible", "never"]
+- !private ["Ps23FloatLiteralConvertible", "now"]
+- ["Ps23FloatLiteralConvertible", "seconds"]
+- ["Ps13FloatingPoint", "init"]
+- !private ["Ps13FloatingPoint", "never"]
+- !private ["Ps13FloatingPoint", "now"]
+- ["Ps13FloatingPoint", "seconds"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "never"]
+- !private ["Ps8Hashable", "now"]
+- ["Ps8Hashable", "seconds"]
+- ["Si", "Double"]
+- ["Si", "deinit"]
+- ["Si", "seconds"]
+- !private ["Ps7Integer", "Double"]
+- ["Ps7Integer", "seconds"]
+- !private ["Ps17IntegerArithmetic", "Double"]
+- ["Ps17IntegerArithmetic", "seconds"]
+- !private ["Ps25IntegerLiteralConvertible", "Double"]
+- ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "never"]
+- !private ["Ps25IntegerLiteralConvertible", "now"]
+- ["Ps25IntegerLiteralConvertible", "seconds"]
+- !private ["Ps10MirrorPath", "Double"]
+- ["Ps10MirrorPath", "seconds"]
+- !private ["Ps13SignedInteger", "Double"]
+- ["Ps13SignedInteger", "seconds"]
+- !private ["Ps12SignedNumber", "Double"]
+- ["Ps12SignedNumber", "init"]
+- !private ["Ps12SignedNumber", "never"]
+- !private ["Ps12SignedNumber", "now"]
+- ["Ps12SignedNumber", "seconds"]
+- !private ["Ps10Strideable", "Double"]
+- ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "never"]
+- !private ["Ps10Strideable", "now"]
+- ["Ps10Strideable", "seconds"]
+- ["P2C721TimeUnitRepresentable", "Double"]
+- ["P2C721TimeUnitRepresentable", "hour"]
+- ["P2C721TimeUnitRepresentable", "hours"]
+- ["P2C721TimeUnitRepresentable", "init"]
+- ["P2C721TimeUnitRepresentable", "millisecond"]
+- ["P2C721TimeUnitRepresentable", "milliseconds"]
+- ["P2C721TimeUnitRepresentable", "minute"]
+- ["P2C721TimeUnitRepresentable", "minutes"]
+- !private ["P2C721TimeUnitRepresentable", "never"]
+- !private ["P2C721TimeUnitRepresentable", "now"]
+- ["P2C721TimeUnitRepresentable", "second"]
+- ["P2C721TimeUnitRepresentable", "seconds"]
+- ["P2C721TimeUnitRepresentable", ""]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "never"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "now"]
+- ["Ps31_BuiltinFloatLiteralConvertible", "seconds"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Double"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "never"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "now"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "seconds"]
+- ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps15_CVarArgAligned", "never"]
+- !private ["Ps15_CVarArgAligned", "now"]
+- ["Ps15_CVarArgAligned", "seconds"]
+- ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "never"]
+- !private ["Ps22_CVarArgPassedAsDouble", "now"]
+- ["Ps22_CVarArgPassedAsDouble", "seconds"]
+- !private ["Ps14_Incrementable", "Double"]
+- ["Ps14_Incrementable", "seconds"]
+- !private ["Ps8_Integer", "Double"]
+- ["Ps8_Integer", "seconds"]
+- !private ["Ps18_IntegerArithmetic", "Double"]
+- ["Ps18_IntegerArithmetic", "seconds"]
+- !private ["Ps14_SignedInteger", "Double"]
+- ["Ps14_SignedInteger", "seconds"]
+- !private ["Ps11_Strideable", "Double"]
+- ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "never"]
+- !private ["Ps11_Strideable", "now"]
+- ["Ps11_Strideable", "seconds"]
+- ["VSC18mach_timebase_info", "denom"]
+- ["VSC18mach_timebase_info", "init"]
+- ["VSC18mach_timebase_info", "numer"]
+depends-nominal:
+- "Ps16AbsoluteValuable"
+- "Ps19BinaryFloatingPoint"
+- "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7Boolean"
+- !private "Ps25BooleanLiteralConvertible"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- "Ps23FloatLiteralConvertible"
+- "Ps13FloatingPoint"
+- "Ps8Hashable"
+- "Si"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "Ps25IntegerLiteralConvertible"
+- "Ps10MirrorPath"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "Ps10Strideable"
+- "P2C721TimeUnitRepresentable"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps31_BuiltinFloatLiteralConvertible"
+- "Ps33_BuiltinIntegerLiteralConvertible"
+- "Ps15_CVarArgAligned"
+- "Ps22_CVarArgPassedAsDouble"
+- "Ps14_Incrementable"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+- "VSC18mach_timebase_info"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/Visibility.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/UnicodeShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/SwiftStdint.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/SwiftStddef.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/RuntimeShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/LibcShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/RefCount.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/HeapObject.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/GlobalObjects.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/FoundationShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/shims/module.map"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+interface-hash: "36c969f13c0003ac2a67eab90bba0b2d"

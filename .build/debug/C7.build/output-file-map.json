@@ -1,0 +1,137 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/master.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/AsyncConnection.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncConnection.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncConnection.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncConnection~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncConnection.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/AsyncDrain.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncDrain.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncDrain.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncDrain~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncDrain.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/AsyncHost.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncHost.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncHost.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncHost~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncHost.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/AsyncStream.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncStream.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncStream.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncStream~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncStream.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/AsyncURIConnection.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncURIConnection.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncURIConnection.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncURIConnection~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/AsyncURIConnection.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/Byte.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Byte.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Byte.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Byte~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Byte.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/C7.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/C7.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/C7.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/C7~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/C7.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/CaseInsensitiveString.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/CaseInsensitiveString.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/CaseInsensitiveString.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/CaseInsensitiveString~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/CaseInsensitiveString.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/Closable.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Closable.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Closable.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Closable~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Closable.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/Connection.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Connection.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Connection.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Connection~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Connection.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/CustomDataStore.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/CustomDataStore.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/CustomDataStore.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/CustomDataStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/CustomDataStore.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/Data.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Data.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Data.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Data~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Data.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/Drain.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Drain.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Drain.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Drain~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Drain.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/Host.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Host.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Host.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Host~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Host.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/Query.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Query.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Query.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Query~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Query.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/QueryField.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/QueryField.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/QueryField.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/QueryField~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/QueryField.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/Stream.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Stream.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Stream.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Stream~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Stream.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/StreamError.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/StreamError.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/StreamError.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/StreamError~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/StreamError.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/StreamSequence.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/StreamSequence.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/StreamSequence.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/StreamSequence~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/StreamSequence.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/Time.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Time.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Time.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Time~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/Time.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/URI.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/URI.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/URI.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/URI~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/URI.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/Packages/C7-0.7.4/Sources/URIConnection.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/URIConnection.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/URIConnection.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/URIConnection~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/C7.build/URIConnection.swiftdeps"
+  }
+}

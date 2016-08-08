@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/zeromqcli.build/master.swiftdeps"
+  },
+  "/Users/kasperwelner/Documents/Codeum/zeromqcli/zeromqcli/main.swift": {
+    "dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/zeromqcli.build/main.d",
+    "object": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/zeromqcli.build/main.swift.o",
+    "swiftmodule": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/zeromqcli.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/kasperwelner/Documents/Codeum/zeromqcli/.build/debug/zeromqcli.build/main.swiftdeps"
+  }
+}
